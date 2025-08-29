@@ -10,6 +10,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.ramihage.stormdccinterface.toolWindow.MyToolWindowFactory" id="Storm Dcc Interface"/>
+        <configurationType implementation="com.github.ramihage.stormdccinterface.run.MyDebugConfigurationType"/>
     </extensions>
     <actions>
         <action id="com.github.ramihage.stormdccinterface.actions.SendSelectionAction"
