@@ -10,6 +10,6 @@ class MyDebugConfigurationType : ConfigurationTypeBase(
     AllIcons.Actions.StartDebugger
 ) {
     init {
-        addFactory(MyDebugConfigurationFactory(this))
+        addFactory(MyConfigurationFactory(this))
     }
 }
